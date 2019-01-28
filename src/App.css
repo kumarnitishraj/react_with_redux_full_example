@@ -1,0 +1,146 @@
+.App {
+  text-align: center;
+  height: -webkit-fill-available;
+  background: url('assets/house.jpg') no-repeat fixed right;
+  background-size: 50% auto;
+  width: 100%;
+}
+
+
+input{
+  padding: 20px;
+  margin-top:5px;
+  width:100%;
+  transition: all 1s ease;
+}
+
+input:focus{
+  padding: 20px;
+  margin-top:5px;
+  width:100%;
+  outline-width: thick;
+  outline-color: 'blueviolet';
+  transition: all 1s ease;
+}
+
+textarea{
+  padding: 20px;
+  margin-top:5px;
+  width:100%;
+  transition: all 1s ease;
+}
+
+textarea:focus{
+  padding: 20px;
+  margin-top:5px;
+  width:100%;
+  outline-width: thick;
+  outline-color: 'blueviolet';
+  transition: all 1s ease;
+}
+input[type="submit"]{
+  margin-top:5px;
+  width:100%;
+  border:0px;
+  font-size: 18px;
+  background-color: #626562;
+  color: #fff;
+
+}
+.form-login{
+  position: absolute;
+  top: 20%;
+  left: 5%;
+  width:40%;
+  box-shadow: 0 0px 10px 2px rgba(0,0,0,0.2);
+  padding: 30px;
+ 
+}
+
+
+
+.card{
+  box-shadow: 0 0px 10px 2px rgba(0,0,0,0.2);
+  transition: 0.3s;
+  margin: 20px;
+}
+
+p{
+  word-break: break-all;
+}
+
+.logout{
+  border:0px;
+  padding: 10px;
+  background-color: #808080f7;
+  color: #FFF;
+  
+}
+
+.logout-div{
+  margin-top: 10px;
+  position: absolute;
+  right: 20px;
+}
+.create-div{
+  margin-top: 10px;
+  position: absolute;
+  right: 100px;
+}
+
+.button{
+  
+  font-size: 18px;
+  background-color: #626562;
+  color: #fff;
+
+}
+.home-div {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+
+
+.model{
+  height: '300px;';
+}
+
+.button-top {
+  width:100%;
+  border:1px;
+
+
+
+}
+.align-center {
+  display: flex;
+    justify-content: center;
+}
+.button-delete {
+  border: 0px;
+  font-size: 18px;
+  background-color: #F65E69;
+  color: #fff;
+  position: absolute;
+  padding: 10px;
+  right: 5px;
+  top: 5px;
+}
+.empty-data-text{
+  text-align: center;
+  color: #8080809e;
+}
+
+.header-view {
+  border-bottom: 1px solid lightgrey;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 5%;
+  height: 60px;
+}
+
+
+
+
